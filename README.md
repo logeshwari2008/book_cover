@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-# Date:
+# Date:23.09.2025
 # AIM:
 To design a book front cover page using HTML and CSS.
 
@@ -29,6 +29,67 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 # PROGRAM:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('c:/Users/acer/Pictures/Screenshots/Screenshot 2025-09-23 144555.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 800px;
+            width: 900px;
+        }
+        div{
+            text-align: center;
+            color: navajowhite;
+        }
+        h1{
+            text-align: center;
+            color: rgb(13, 239, 239);
+        }
+        h2{
+            text-align: center;
+            color: rgb(132, 242, 23);
+        }
+        h3{
+            text-align: right;
+            color: rgb(250, 6, 63);
+        }
+        </style>
+</head>
+<body>
+    <div><b>COMPUTER SCIENCE ENGINEERING(CSE)</b></div>
+    <hr>
+    <div>
+        <h1><b>Skill based courses:</b></h1>
+        <h2>Web Development</h2>
+        <h2>C Programming</h2>
+        <h2>Public Speaking</h2>
+        <h2>Data science</h2>
+        <h2>Python program</h2>
+    </div>
+    <hr>
+    <div class="ed">
+        <h3>Important content</h3>
+        <h3><b>BY SHINCHAN NOHARA</b></h3>
+    </div>
+    <hr>
+    <img src="c:/Users/acer/Pictures/Screenshots/Screenshot 2025-09-23 193529.png" alt="Decoration" class="corner-img">
+</body>
+</html>
+```
+
+
+
 # OUTPUT:
+![alt text](<Screenshot 2025-09-23 200948.png>)
+
+
+
 # RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
